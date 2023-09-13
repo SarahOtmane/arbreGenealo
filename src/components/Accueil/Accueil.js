@@ -21,7 +21,7 @@ const Accueil = ({data}) =>{
                 <section className="section2 column">
                     <input placeholder="Recherche" />
                     <div>
-                        {data.map(dat =>{<ProfilCard {...dat} />})}
+                        
                     </div>
                 </section>
             </main>

@@ -14,12 +14,8 @@ function App() {
 
   return (
     <Routes>
-        <Route  path='/' element={
-          <>
-            <Back />
-            <Accueil data={data} />
-          </>
-        } />
+        <Route  path='/' element={<Back />} />
+        <Route  path='/Accueil/' element={<Accueil />} />
     </Routes>
   );
 }
