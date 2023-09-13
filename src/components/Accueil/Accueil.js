@@ -1,7 +1,7 @@
 import "./Accueil.css";
 import ProfilCard from "../ProfilCard/ProfilCard";
 
-const Accueil = () =>{
+const Accueil = ({data}) =>{
     return(
         <>
             <header>
@@ -18,12 +18,10 @@ const Accueil = () =>{
                         Eu culpa quis pariatur ex aute consequat nostrud velit. Anim pariatur enim ut quis elit adipisicing ea quis laborum excepteur id proident enim enim. Officia magna aliquip laboris pariatur cillum quis veniam id in.
                     </p>
                 </section>
-                <section className="section2 row">
+                <section className="section2 column">
+                    <input placeholder="Recherche" />
                     <div>
-                        <input placeholder="Recherche" />
-                    </div>
-                    <div>
-                        <ProfilCard />
+                        {data.map(dat =>{<ProfilCard {...dat} />})}
                     </div>
                 </section>
             </main>

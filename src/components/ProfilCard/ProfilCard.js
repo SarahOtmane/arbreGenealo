@@ -1,5 +1,5 @@
 
-const ProfilCard = () =>{
+const ProfilCard = ({nom, photo}) => {
     return(
         <article>
             
