@@ -1,9 +1,11 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La documentation sur les axes d'amelioration du site se trouvent ici : [Axes_Dameliorations1.pptx](https://github.com/SarahOtmane/arbreGenealo/files/12613390/Axes_Dameliorations1.pptx)
+
+
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
